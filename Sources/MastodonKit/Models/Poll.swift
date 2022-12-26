@@ -20,7 +20,7 @@ public struct Poll: Codable {
   }
   
   public let id: String
-  public let expiredAt: Date
+  public let expiresdAt: Date
   public let expired: Bool
   public let multiple: Bool
   public let votesCount: Int
@@ -32,7 +32,7 @@ public struct Poll: Codable {
   
   private enum CodingKeys: String, CodingKey {
     case id
-    case expiredAt = "expired_at"
+    case expiresdAt = "expires_at"
     case expired
     case multiple
     case votesCount = "votes_count"
