@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Status: Codable, Hashable {
+public class Status: Codable, Hashable, Identifiable {
     /// The ID of the status.
     public let id: String
     /// A Fediverse-unique resource ID.
@@ -27,6 +27,8 @@ public class Status: Codable, Hashable {
     public let createdAt: Date
     /// An array of Emoji.
     public let emojis: [Emoji]
+    /// The number of replies for the status.
+    public let repliesCount: Int?
     /// The number of reblogs for the status.
     public let reblogsCount: Int
     /// The number of favourites for the status.
@@ -68,6 +70,7 @@ public class Status: Codable, Hashable {
         case content
         case createdAt = "created_at"
         case emojis
+        case repliesCount = "replies_count"
         case reblogsCount = "reblogs_count"
         case favouritesCount = "favourites_count"
         case reblogged
