@@ -10,8 +10,8 @@ import Foundation
 public struct Poll: Codable {
   
   public struct Option: Codable {
-    let title: String
-    let votesCount: Int
+    public let title: String
+    public let votesCount: Int
     
     private enum CodingKeys: String, CodingKey {
       case title
@@ -19,16 +19,16 @@ public struct Poll: Codable {
     }
   }
   
-  let id: String
-  let expiredAt: Date
-  let expired: Bool
-  let multiple: Bool
-  let votesCount: Int
-  let votersCount: Int
-  let options: [Option]
-  let emojis: [Emoji]
-  let votes: Bool?
-  let ownVotes: [Int]?
+  public let id: String
+  public let expiredAt: Date
+  public let expired: Bool
+  public let multiple: Bool
+  public let votesCount: Int
+  public let votersCount: Int
+  public let options: [Option]
+  public let emojis: [Emoji]
+  public let votes: Bool?
+  public let ownVotes: [Int]?
   
   private enum CodingKeys: String, CodingKey {
     case id
