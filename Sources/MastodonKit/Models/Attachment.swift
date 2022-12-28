@@ -25,6 +25,8 @@ public struct  Attachment: Codable, Hashable, Identifiable {
     public let description: String?
     /// A free-form object that might contain information about the attachment.
     public let meta: Meta?
+    /// A hash computed by the BlurHash algorithm, for generating colorful preview thumbnails when media has not been downloaded yet.
+    public let blurhash: String
 
     public struct Meta: Codable, Hashable {
         public struct Info: Codable, Hashable {
@@ -66,5 +68,6 @@ public struct  Attachment: Codable, Hashable, Identifiable {
         case textURL = "text_url"
         case description
         case meta
+        case blurhash
     }
 }
