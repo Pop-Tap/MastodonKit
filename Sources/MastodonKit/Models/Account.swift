@@ -41,4 +41,10 @@ public struct Account: Codable, Hashable {
     public let statusesCount: Int
     /// An array of `Emoji`.
     public let emojis: [Emoji]
+  /// An array of `Field`
+  public let fields: [Field]
+  
+  public static func == (lhs: Account, rhs: Account) -> Bool {
+    return lhs.acct == rhs.acct
+  }
 }
