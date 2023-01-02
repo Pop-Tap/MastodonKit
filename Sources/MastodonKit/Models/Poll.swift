@@ -22,6 +22,6 @@ public struct Poll: Codable {
   public let votersCount: Int
   public let options: [Option]
   public let emojis: [Emoji]
-  public let votes: Bool?
+  public let voted: Bool?
   public let ownVotes: [Int]?
 }
