@@ -26,7 +26,7 @@ public struct  Attachment: Codable, Hashable, Identifiable {
     /// A free-form object that might contain information about the attachment.
     public let meta: Meta?
     /// A hash computed by the BlurHash algorithm, for generating colorful preview thumbnails when media has not been downloaded yet.
-    public let blurhash: String
+    public let blurhash: String?
 
     public struct Meta: Codable, Hashable {
         public struct Info: Codable, Hashable {
