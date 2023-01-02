@@ -14,7 +14,7 @@ public struct  ClientApplication: Codable, Hashable {
     /// Where the user should be redirected after authorization.
     public let redirectUri: String
     /// The application client ID.
-    public let clientID: String
+    public let clientId: String
     /// The application client secret.
     public let clientSecret: String
 }
