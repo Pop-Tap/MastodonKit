@@ -187,4 +187,12 @@ public enum Accounts {
         let method = HTTPMethod.get(.parameters(parameters))
         return Request<[Account]>(path: "/api/v1/accounts/search", method: method)
     }
+  
+  public static func lookup(acct: String) -> Request<Account> {
+    let parameters = [
+      Parameter(name: "acct", value: acct)
+    ]
+    let method = HTTPMethod.get(.parameters(parameters))
+    return Request<Account>(path: "/api/v1/accounts/lookup", method: method)
+  }
 }
