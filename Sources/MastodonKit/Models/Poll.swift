@@ -15,7 +15,7 @@ public struct Poll: Codable {
   }
   
   public let id: String
-  public let expiresdAt: Date
+  public let expiresAt: Date
   public let expired: Bool
   public let multiple: Bool
   public let votesCount: Int
