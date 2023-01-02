@@ -62,35 +62,6 @@ public class Status: Codable, Hashable, Identifiable {
   
     public let poll: Poll?
 
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case uri
-        case url
-        case account
-        case inReplyToID = "in_reply_to_id"
-        case inReplyToAccountID = "in_reply_to_account_id"
-        case content
-        case createdAt = "created_at"
-        case emojis
-        case repliesCount = "replies_count"
-        case reblogsCount = "reblogs_count"
-        case favouritesCount = "favourites_count"
-        case reblogged
-        case favourited
-        case sensitive
-        case spoilerText = "spoiler_text"
-        case visibility
-        case mediaAttachments = "media_attachments"
-        case mentions
-        case tags
-        case application
-        case language
-        case reblog
-        case pinned
-        case card
-        case poll
-    }
-
     public static func == (lhs: Status, rhs: Status) -> Bool {
         ObjectIdentifier(lhs) == ObjectIdentifier(rhs)
     }

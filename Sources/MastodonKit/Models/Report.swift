@@ -13,9 +13,4 @@ public struct Report: Codable, Hashable {
     public let id: String
     /// The action taken in response to the report.
     public let actionTaken: String
-
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case actionTaken = "action_taken"
-    }
 }

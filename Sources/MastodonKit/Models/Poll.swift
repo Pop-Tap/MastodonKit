@@ -12,11 +12,6 @@ public struct Poll: Codable {
   public struct Option: Codable {
     public let title: String
     public let votesCount: Int
-    
-    private enum CodingKeys: String, CodingKey {
-      case title
-      case votesCount = "votes_count"
-    }
   }
   
   public let id: String
@@ -29,17 +24,4 @@ public struct Poll: Codable {
   public let emojis: [Emoji]
   public let votes: Bool?
   public let ownVotes: [Int]?
-  
-  private enum CodingKeys: String, CodingKey {
-    case id
-    case expiresdAt = "expires_at"
-    case expired
-    case multiple
-    case votesCount = "votes_count"
-    case votersCount = "voters_count"
-    case options
-    case emojis
-    case votes
-    case ownVotes = "own_votes"
-  }
 }

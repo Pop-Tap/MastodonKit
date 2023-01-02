@@ -12,16 +12,9 @@ public struct  ClientApplication: Codable, Hashable {
     /// The application ID.
     public let id: String
     /// Where the user should be redirected after authorization.
-    public let redirectURI: String
+    public let redirectUri: String
     /// The application client ID.
     public let clientID: String
     /// The application client secret.
     public let clientSecret: String
-
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case redirectURI = "redirect_uri"
-        case clientID = "client_id"
-        case clientSecret = "client_secret"
-    }
 }

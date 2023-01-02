@@ -25,15 +25,4 @@ public struct Relationship: Codable, Hashable {
     public let requested: Bool
     /// Whether the user is currently blocking the user's domain.
     public let domainBlocking: Bool
-
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case following
-        case followedBy = "followed_by"
-        case blocking
-        case muting
-        case mutingNotifications = "muting_notifications"
-        case requested
-        case domainBlocking = "domain_blocking"
-    }
 }

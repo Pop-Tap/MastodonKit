@@ -12,13 +12,7 @@ public struct Emoji: Codable, Hashable {
     /// The shortcode of the emoji
     public let shortcode: String
     /// URL to the emoji static image
-    public let staticURL: URL
+    public let staticUrl: URL
     /// URL to the emoji image
     public let url: URL
-
-    private enum CodingKeys: String, CodingKey {
-        case shortcode
-        case staticURL = "static_url"
-        case url
-    }
 }

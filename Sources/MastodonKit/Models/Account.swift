@@ -39,35 +39,6 @@ public struct Account: Codable, Hashable {
     public let followingCount: Int
     /// The number of statuses the account has made.
     public let statusesCount: Int
-
     /// An array of `Emoji`.
-    public var emojis: [Emoji] {
-        return _emojis ?? []
-    }
-
-    /// Real storage of emojis.
-    ///
-    /// According to the [documentation](https://docs.joinmastodon.org/api/entities/#account),
-    /// property emoji is added in 2.4.0, and it is non-optional. But for compibility with older version instance, we
-    /// use `[Emoji]?` as storage and use `[Emoji]` as public API.
-    private let _emojis: [Emoji]?
-
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case username
-        case acct
-        case displayName = "display_name"
-        case note
-        case url
-        case avatar
-        case avatarStatic = "avatar_static"
-        case header
-        case headerStatic = "header_static"
-        case locked
-        case createdAt = "created_at"
-        case followersCount = "followers_count"
-        case followingCount = "following_count"
-        case statusesCount = "statuses_count"
-        case _emojis = "emojis"
-    }
+    public let emojis: [Emoji]
 }

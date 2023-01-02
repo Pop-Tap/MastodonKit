@@ -50,22 +50,4 @@ public struct Card: Codable, Hashable {
     /// A hash computed by the [BlurHash](https://github.com/woltapp/blurhash) algorithm, for
     /// generating colorful preview thumbnails when media has not been downloaded yet.
     public let blurhash: String?
-
-    private enum CodingKeys: String, CodingKey {
-        case url
-        case title
-        case description
-        case image
-        case type
-        case authorName = "author_name"
-        case authorURL = "author_url"
-        case providerName = "provider_name"
-        case providerURL = "provider_url"
-        case html
-        case width
-        case height
-        case embedURL = "embed_url"
-        case blurhash
-    }
-
 }

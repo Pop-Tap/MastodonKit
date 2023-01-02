@@ -12,7 +12,7 @@ public struct LoginSettings: Codable, Hashable {
     /// The user's access token.
     public let accessToken: String
     /// Access token type.
-    public let accessTokenType: String
+    public let tokenType: String
     /// Date when the access token was retrieved.
     public let createdAt: TimeInterval
     /// Access scope.
@@ -22,12 +22,5 @@ public struct LoginSettings: Codable, Hashable {
         return scope
             .components(separatedBy: .whitespaces)
             .compactMap(toAccessScope)
-    }
-
-    private enum CodingKeys: String, CodingKey {
-        case accessToken = "access_token"
-        case accessTokenType = "token_type"
-        case scope
-        case createdAt = "created_at"
     }
 }
