@@ -16,11 +16,11 @@ public struct  Attachment: Codable, Hashable, Identifiable {
     /// URL of the locally hosted version of the image.
     public let url: String
     /// For remote images, the remote URL of the original image.
-    public let remoteUrl: String?
+    public let remoteUrl: URL?
     /// URL of the preview image.
-    public let previewUrl: String?
+    public let previewUrl: URL?
     /// Shorter URL for the image, for insertion into text (only present on local images).
-    public let textUrl: String?
+    public let textUrl: URL?
     /// A description of the image for the visually impaired.
     public let description: String?
     /// A free-form object that might contain information about the attachment.
