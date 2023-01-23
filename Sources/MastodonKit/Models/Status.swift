@@ -63,6 +63,8 @@ public class Status: Codable, Hashable, Identifiable {
   public let card: Card?
 
   public let poll: Poll?
+  
+  public let filtered: [FilterResult]?
 
   public static func == (lhs: Status, rhs: Status) -> Bool {
     ObjectIdentifier(lhs) == ObjectIdentifier(rhs)
