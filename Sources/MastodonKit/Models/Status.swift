@@ -18,9 +18,9 @@ public class Status: Codable, Hashable, Identifiable {
   /// The Account which posted the status.
   public let account: Account
   /// null or the ID of the status it replies to.
-  public let inReplyToID: String?
+  public let inReplyToId: String?
   /// null or the ID of the account it replies to.
-  public let inReplyToAccountID: String?
+  public let inReplyToAccountId: String?
   /// Body of the status; this will contain HTML (remote HTML already sanitized).
   public let content: String
   /// The time the status was created.
