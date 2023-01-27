@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Account: Codable, Hashable {
+public struct Account: Codable, Hashable, Identifiable {
     /// The ID of the account.
     public let id: String
     /// The username of the account.
