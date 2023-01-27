@@ -14,5 +14,5 @@ public struct Results: Codable, Hashable {
     /// An array of matchhed statuses.
     public let statuses: [Status]
     /// An array of matched hashtags, as strings.
-    public let hashtags: [String]
+    public let hashtags: [Tag]
 }

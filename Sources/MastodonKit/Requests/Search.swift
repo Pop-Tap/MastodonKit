@@ -23,6 +23,6 @@ public enum Search {
         ]
 
         let method = HTTPMethod.get(.parameters(parameters))
-        return Request<Results>(path: "/api/v1/search", method: method)
+        return Request<Results>(path: "/api/v2/search", method: method)
     }
 }
