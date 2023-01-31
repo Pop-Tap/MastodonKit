@@ -128,6 +128,24 @@
 		629A4B06213AF5B100A6386E /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Search.swift */; };
 		629A4B07213AF5B100A6386E /* Statuses.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Statuses.swift */; };
 		629A4B08213AF5B100A6386E /* Timelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Timelines.swift */; };
+		B3D420112989511B007BE2C1 /* FilterKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200B2989511B007BE2C1 /* FilterKeyword.swift */; };
+		B3D420122989511B007BE2C1 /* FilterKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200B2989511B007BE2C1 /* FilterKeyword.swift */; };
+		B3D420132989511B007BE2C1 /* FilterKeyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200B2989511B007BE2C1 /* FilterKeyword.swift */; };
+		B3D420142989511B007BE2C1 /* FilterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200C2989511B007BE2C1 /* FilterResult.swift */; };
+		B3D420152989511B007BE2C1 /* FilterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200C2989511B007BE2C1 /* FilterResult.swift */; };
+		B3D420162989511B007BE2C1 /* FilterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200C2989511B007BE2C1 /* FilterResult.swift */; };
+		B3D420172989511B007BE2C1 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200D2989511B007BE2C1 /* Field.swift */; };
+		B3D420182989511B007BE2C1 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200D2989511B007BE2C1 /* Field.swift */; };
+		B3D420192989511B007BE2C1 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200D2989511B007BE2C1 /* Field.swift */; };
+		B3D4201A2989511B007BE2C1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200E2989511B007BE2C1 /* Filter.swift */; };
+		B3D4201B2989511B007BE2C1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200E2989511B007BE2C1 /* Filter.swift */; };
+		B3D4201C2989511B007BE2C1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200E2989511B007BE2C1 /* Filter.swift */; };
+		B3D4201D2989511B007BE2C1 /* FilterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200F2989511B007BE2C1 /* FilterStatus.swift */; };
+		B3D4201E2989511B007BE2C1 /* FilterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200F2989511B007BE2C1 /* FilterStatus.swift */; };
+		B3D4201F2989511B007BE2C1 /* FilterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D4200F2989511B007BE2C1 /* FilterStatus.swift */; };
+		B3D420202989511B007BE2C1 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D420102989511B007BE2C1 /* Poll.swift */; };
+		B3D420212989511B007BE2C1 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D420102989511B007BE2C1 /* Poll.swift */; };
+		B3D420222989511B007BE2C1 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D420102989511B007BE2C1 /* Poll.swift */; };
 		OBJ_145 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Client.swift */; };
 		OBJ_146 /* ClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ClientError.swift */; };
 		OBJ_147 /* ClientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ClientType.swift */; };
@@ -262,6 +280,12 @@
 		0136E941291D430B00DC88DA /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		62864F50213AF68900823C8A /* MastodonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MastodonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		629A4B0E213AF5B100A6386E /* MastodonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MastodonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D4200B2989511B007BE2C1 /* FilterKeyword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterKeyword.swift; sourceTree = "<group>"; };
+		B3D4200C2989511B007BE2C1 /* FilterResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterResult.swift; sourceTree = "<group>"; };
+		B3D4200D2989511B007BE2C1 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		B3D4200E2989511B007BE2C1 /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		B3D4200F2989511B007BE2C1 /* FilterStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterStatus.swift; sourceTree = "<group>"; };
+		B3D420102989511B007BE2C1 /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poll.swift; sourceTree = "<group>"; };
 		"MastodonKit::MastodonKit::Product" /* MastodonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MastodonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MastodonKit::MastodonKitTests::Product" /* MastodonKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MastodonKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* ClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientError.swift; sourceTree = "<group>"; };
@@ -469,6 +493,12 @@
 		OBJ_24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B3D4200D2989511B007BE2C1 /* Field.swift */,
+				B3D4200E2989511B007BE2C1 /* Filter.swift */,
+				B3D4200B2989511B007BE2C1 /* FilterKeyword.swift */,
+				B3D4200C2989511B007BE2C1 /* FilterResult.swift */,
+				B3D4200F2989511B007BE2C1 /* FilterStatus.swift */,
+				B3D420102989511B007BE2C1 /* Poll.swift */,
 				OBJ_25 /* AccessScope.swift */,
 				OBJ_26 /* Account.swift */,
 				OBJ_27 /* Application.swift */,
@@ -728,10 +758,10 @@
 						LastSwiftMigration = "";
 					};
 					"MastodonKit::MastodonKit" = {
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = "";
 					};
 					"MastodonKit::MastodonKitTests" = {
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -787,6 +817,7 @@
 				62864F12213AF68900823C8A /* ClientType.swift in Sources */,
 				62864F13213AF68900823C8A /* CharacterSet.swift in Sources */,
 				62864F14213AF68900823C8A /* Data.swift in Sources */,
+				B3D420192989511B007BE2C1 /* Field.swift in Sources */,
 				62864F15213AF68900823C8A /* DateFormatter.swift in Sources */,
 				62864F16213AF68900823C8A /* Decodable.swift in Sources */,
 				62864F17213AF68900823C8A /* HTTPURLResponse.swift in Sources */,
@@ -794,6 +825,7 @@
 				62864F19213AF68900823C8A /* URLComponents.swift in Sources */,
 				62864F1A213AF68900823C8A /* URLRequest.swift in Sources */,
 				62864F1B213AF68900823C8A /* Functions.swift in Sources */,
+				B3D4201C2989511B007BE2C1 /* Filter.swift in Sources */,
 				62864F1C213AF68900823C8A /* HTTPMethod.swift in Sources */,
 				62864F1D213AF68900823C8A /* MediaAttachment.swift in Sources */,
 				62864F1E213AF68900823C8A /* AccessScope.swift in Sources */,
@@ -806,6 +838,7 @@
 				62864F25213AF68900823C8A /* Context.swift in Sources */,
 				62864F26213AF68900823C8A /* Emoji.swift in Sources */,
 				62864F27213AF68900823C8A /* Empty.swift in Sources */,
+				B3D420162989511B007BE2C1 /* FilterResult.swift in Sources */,
 				62864F28213AF68900823C8A /* Instance.swift in Sources */,
 				62864F29213AF68900823C8A /* List.swift in Sources */,
 				62864F2A213AF68900823C8A /* LoginSettings.swift in Sources */,
@@ -822,6 +855,7 @@
 				62864F34213AF68900823C8A /* Visibility.swift in Sources */,
 				62864F35213AF68900823C8A /* Pagination.swift in Sources */,
 				62864F36213AF68900823C8A /* PaginationItem.swift in Sources */,
+				B3D420132989511B007BE2C1 /* FilterKeyword.swift in Sources */,
 				62864F37213AF68900823C8A /* Parameter.swift in Sources */,
 				62864F38213AF68900823C8A /* Payload.swift in Sources */,
 				62864F39213AF68900823C8A /* Request.swift in Sources */,
@@ -832,9 +866,11 @@
 				62864F3E213AF68900823C8A /* DomainBlocks.swift in Sources */,
 				62864F3F213AF68900823C8A /* Favourites.swift in Sources */,
 				62864F40213AF68900823C8A /* FollowRequests.swift in Sources */,
+				B3D4201F2989511B007BE2C1 /* FilterStatus.swift in Sources */,
 				62864F41213AF68900823C8A /* Instances.swift in Sources */,
 				62864F42213AF68900823C8A /* Lists.swift in Sources */,
 				62864F43213AF68900823C8A /* Login.swift in Sources */,
+				B3D420222989511B007BE2C1 /* Poll.swift in Sources */,
 				62864F44213AF68900823C8A /* Media.swift in Sources */,
 				62864F45213AF68900823C8A /* Mutes.swift in Sources */,
 				62864F46213AF68900823C8A /* Notifications.swift in Sources */,
@@ -854,6 +890,7 @@
 				629A4AD0213AF5B100A6386E /* ClientType.swift in Sources */,
 				629A4AD1213AF5B100A6386E /* CharacterSet.swift in Sources */,
 				629A4AD2213AF5B100A6386E /* Data.swift in Sources */,
+				B3D420182989511B007BE2C1 /* Field.swift in Sources */,
 				629A4AD3213AF5B100A6386E /* DateFormatter.swift in Sources */,
 				629A4AD4213AF5B100A6386E /* Decodable.swift in Sources */,
 				629A4AD5213AF5B100A6386E /* HTTPURLResponse.swift in Sources */,
@@ -861,6 +898,7 @@
 				629A4AD7213AF5B100A6386E /* URLComponents.swift in Sources */,
 				629A4AD8213AF5B100A6386E /* URLRequest.swift in Sources */,
 				629A4AD9213AF5B100A6386E /* Functions.swift in Sources */,
+				B3D4201B2989511B007BE2C1 /* Filter.swift in Sources */,
 				629A4ADA213AF5B100A6386E /* HTTPMethod.swift in Sources */,
 				629A4ADB213AF5B100A6386E /* MediaAttachment.swift in Sources */,
 				629A4ADC213AF5B100A6386E /* AccessScope.swift in Sources */,
@@ -873,6 +911,7 @@
 				629A4AE3213AF5B100A6386E /* Context.swift in Sources */,
 				629A4AE4213AF5B100A6386E /* Emoji.swift in Sources */,
 				629A4AE5213AF5B100A6386E /* Empty.swift in Sources */,
+				B3D420152989511B007BE2C1 /* FilterResult.swift in Sources */,
 				629A4AE6213AF5B100A6386E /* Instance.swift in Sources */,
 				629A4AE7213AF5B100A6386E /* List.swift in Sources */,
 				629A4AE8213AF5B100A6386E /* LoginSettings.swift in Sources */,
@@ -889,6 +928,7 @@
 				629A4AF2213AF5B100A6386E /* Visibility.swift in Sources */,
 				629A4AF3213AF5B100A6386E /* Pagination.swift in Sources */,
 				629A4AF4213AF5B100A6386E /* PaginationItem.swift in Sources */,
+				B3D420122989511B007BE2C1 /* FilterKeyword.swift in Sources */,
 				629A4AF5213AF5B100A6386E /* Parameter.swift in Sources */,
 				629A4AF6213AF5B100A6386E /* Payload.swift in Sources */,
 				629A4AF7213AF5B100A6386E /* Request.swift in Sources */,
@@ -899,9 +939,11 @@
 				629A4AFC213AF5B100A6386E /* DomainBlocks.swift in Sources */,
 				629A4AFD213AF5B100A6386E /* Favourites.swift in Sources */,
 				629A4AFE213AF5B100A6386E /* FollowRequests.swift in Sources */,
+				B3D4201E2989511B007BE2C1 /* FilterStatus.swift in Sources */,
 				629A4AFF213AF5B100A6386E /* Instances.swift in Sources */,
 				629A4B00213AF5B100A6386E /* Lists.swift in Sources */,
 				629A4B01213AF5B100A6386E /* Login.swift in Sources */,
+				B3D420212989511B007BE2C1 /* Poll.swift in Sources */,
 				629A4B02213AF5B100A6386E /* Media.swift in Sources */,
 				629A4B03213AF5B100A6386E /* Mutes.swift in Sources */,
 				629A4B04213AF5B100A6386E /* Notifications.swift in Sources */,
@@ -921,6 +963,7 @@
 				OBJ_147 /* ClientType.swift in Sources */,
 				OBJ_148 /* CharacterSet.swift in Sources */,
 				OBJ_149 /* Data.swift in Sources */,
+				B3D420172989511B007BE2C1 /* Field.swift in Sources */,
 				OBJ_150 /* DateFormatter.swift in Sources */,
 				OBJ_151 /* Decodable.swift in Sources */,
 				OBJ_152 /* HTTPURLResponse.swift in Sources */,
@@ -928,6 +971,7 @@
 				OBJ_154 /* URLComponents.swift in Sources */,
 				OBJ_155 /* URLRequest.swift in Sources */,
 				OBJ_156 /* Functions.swift in Sources */,
+				B3D4201A2989511B007BE2C1 /* Filter.swift in Sources */,
 				OBJ_157 /* HTTPMethod.swift in Sources */,
 				OBJ_158 /* MediaAttachment.swift in Sources */,
 				OBJ_159 /* AccessScope.swift in Sources */,
@@ -940,6 +984,7 @@
 				OBJ_166 /* Context.swift in Sources */,
 				OBJ_167 /* Emoji.swift in Sources */,
 				OBJ_168 /* Empty.swift in Sources */,
+				B3D420142989511B007BE2C1 /* FilterResult.swift in Sources */,
 				OBJ_169 /* Instance.swift in Sources */,
 				OBJ_170 /* List.swift in Sources */,
 				OBJ_171 /* LoginSettings.swift in Sources */,
@@ -956,6 +1001,7 @@
 				OBJ_181 /* Visibility.swift in Sources */,
 				OBJ_182 /* Pagination.swift in Sources */,
 				OBJ_183 /* PaginationItem.swift in Sources */,
+				B3D420112989511B007BE2C1 /* FilterKeyword.swift in Sources */,
 				OBJ_184 /* Parameter.swift in Sources */,
 				OBJ_185 /* Payload.swift in Sources */,
 				OBJ_186 /* Request.swift in Sources */,
@@ -966,9 +1012,11 @@
 				OBJ_191 /* DomainBlocks.swift in Sources */,
 				OBJ_192 /* Favourites.swift in Sources */,
 				OBJ_193 /* FollowRequests.swift in Sources */,
+				B3D4201D2989511B007BE2C1 /* FilterStatus.swift in Sources */,
 				OBJ_194 /* Instances.swift in Sources */,
 				OBJ_195 /* Lists.swift in Sources */,
 				OBJ_196 /* Login.swift in Sources */,
+				B3D420202989511B007BE2C1 /* Poll.swift in Sources */,
 				OBJ_197 /* Media.swift in Sources */,
 				OBJ_198 /* Mutes.swift in Sources */,
 				OBJ_199 /* Notifications.swift in Sources */,
@@ -1299,6 +1347,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
@@ -1346,6 +1395,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				USE_HEADERMAP = NO;
 			};
 			name = Release;
