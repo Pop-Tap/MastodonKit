@@ -18,5 +18,5 @@ public struct Emoji: Codable, Hashable {
 
   public let visibleInPicker: Bool
 
-  public let category: String
+  public let category: String?
 }
