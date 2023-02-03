@@ -9,7 +9,7 @@
 import Foundation
 
 public struct Client: ClientType {
-    let baseURL: String
+    public let baseURL: String
     let session: URLSession
     public var accessToken: String?
 
@@ -51,12 +51,12 @@ public struct Client: ClientType {
                 return
             }
 
-            guard let model = try? Model.decode(data: data) else {
-                completion(.failure(ClientError.invalidModel))
-                return
-            }
-
+          do {
+            let model = try Model.decode(data: data)
             completion(.success(.init(value: model, pagination: httpResponse.pagination)))
+          } catch {
+            completion(.failure(ClientError.invalidModel(error)))
+          }
         }
 
         task.resume()

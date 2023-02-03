@@ -14,7 +14,7 @@ public enum ClientError: Error {
     /// Failed to parse the Mastodon's JSON reponse.
     case malformedJSON
     /// Failed to parse Mastodon's model.
-    case invalidModel
+    case invalidModel(Error)
     /// Generic error.
     case genericError
     /// The Mastodon service returned an error.
