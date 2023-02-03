@@ -9,10 +9,14 @@
 import Foundation
 
 public struct Emoji: Codable, Hashable {
-    /// The shortcode of the emoji
-    public let shortcode: String
-    /// URL to the emoji static image
-    public let staticUrl: URL
-    /// URL to the emoji image
-    public let url: URL
+  /// The shortcode of the emoji
+  public let shortcode: String
+  /// URL to the emoji static image
+  public let staticUrl: URL
+  /// URL to the emoji image
+  public let url: URL
+
+  public let visibleInPicker: Bool
+
+  public let category: String
 }
