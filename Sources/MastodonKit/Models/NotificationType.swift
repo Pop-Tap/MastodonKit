@@ -18,7 +18,7 @@ public enum NotificationType: String, Codable, Hashable {
   /// The user has a new follower.
   case follow
   case status
-  case followRequest
+  case follow_request
   case poll
   case update
 }
