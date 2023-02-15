@@ -17,4 +17,12 @@ public enum Tags {
   public static func tag(name: String) -> Request<Tag> {
     return Request<Tag>(path: "/api/v1/tags/\(name)", method: .get(.empty))
   }
+  
+  public static func follow(name: String) -> Request<Tag> {
+    return Request<Tag>(path: "/api/v1/tags/\(name)/follow", method: .post(.empty))
+  }
+  
+  public static func unfollow(name: String) -> Request<Tag> {
+    return Request<Tag>(path: "/api/v1/tags/\(name)/unfollow", method: .post(.empty))
+  }
 }
