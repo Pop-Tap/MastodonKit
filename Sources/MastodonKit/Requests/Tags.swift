@@ -13,4 +13,8 @@ public enum Tags {
     let method = HTTPMethod.get(.empty)
     return Request<[Tag]>(path: "/api/v1/followed_tags", method: method)
   }
+  
+  public static func tag(name: String) -> Request<Tag> {
+    return Request<Tag>(path: "/api/v1/tags/\(name)", method: .get(.empty))
+  }
 }
