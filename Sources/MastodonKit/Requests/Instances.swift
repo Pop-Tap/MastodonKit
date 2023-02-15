@@ -14,7 +14,7 @@ public enum Instances {
     ///
     /// - Returns: Request for `Instance`.
     public static func current() -> Request<Instance> {
-        return Request<Instance>(path: "/api/v1/instance")
+        return Request<Instance>(path: "/api/v2/instance")
     }
 
     /// Fetches current instance's custom emojis.
