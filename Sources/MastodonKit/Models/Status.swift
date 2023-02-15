@@ -65,6 +65,8 @@ public class Status: Codable, Hashable, Identifiable {
   public let poll: Poll?
   
   public let filtered: [FilterResult]?
+  
+  public let editedAt: Date?
 
   public static func == (lhs: Status, rhs: Status) -> Bool {
     ObjectIdentifier(lhs) == ObjectIdentifier(rhs)
