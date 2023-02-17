@@ -10,10 +10,12 @@ import Foundation
 
 public struct Tag: Codable, Hashable, Identifiable {
   
-  public struct History: Codable, Hashable {
+  public struct History: Codable, Hashable, Identifiable {
     public let day: String
     public let accounts: String
     public let uses: String
+    
+    public var id: String { day }
   }
   
   /// The hashtag, not including the preceding #.
